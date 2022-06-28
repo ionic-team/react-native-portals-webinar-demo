@@ -1,4 +1,4 @@
-import { publish } from "@ionic/portals-react-native";
+import Portals from "@ionic/portals";
 import { useState } from "react";
 
 import "./App.css";
@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(1);
   function updateCount() {
     setCount(count + 1);
-    publish("count:updated", { count: count });
+    Portals.publish("count:updated", { count: count });
   }
   return (
     <div className="App">

@@ -3,7 +3,17 @@
 }
 
 .App button {
-  border-radius: 4px;
-  background-color: blue;
+  border-radius: 10px;
+  margin: 4px 2px;
+  height: 2.8em;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  background-color: #3171e0;
   color: white;
+}
+.App button:active,
+.App button:hover {
+  background-color: #4c8dff;
 }

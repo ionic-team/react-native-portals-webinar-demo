@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "appId": "",
+      "appId": "cde08656",
       "root": "packages/web",
       "dependencyInstallCommand": "cd ../.. && yarn cache clean && yarn",
       "webBuildCommand": "cd ../.. && yarn workspace web build"

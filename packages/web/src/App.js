@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={updateCount}>Add 1 too {count}</button>
+      <button onClick={updateCount}>Add 1 to {count}</button>
     </div>
   );
 }
